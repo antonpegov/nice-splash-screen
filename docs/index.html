@@ -9,9 +9,15 @@
 </head>
 <body>
   <div id="splash">
+    <div class="spinner-1" style="visibility:hidden;"></div>
     <h3>Tokenizing world ...</h3>
     <h1>BANKEX</h1>
     <h3>POA Demo</h3>
   </div>
 </body> 
+<script>
+  setTimeout(function(){
+    document.getElementById('splash').getElementsByClassName('spinner-1')[0].style.visibility = "visible";
+  }, 3000);
+</script>
 </html>
